@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm-watch",
+    "build": "webpack"
+  },
+  "watch": {
+    "build": {
+      "patterns": "src",
+      "extensions": "ts",
+      "legacyWatch": true,
+      "runOnChangeOnly": true
+    }
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "npm-watch": "^0.6.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
