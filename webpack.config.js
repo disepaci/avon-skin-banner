@@ -14,11 +14,11 @@ module.exports = {
 		master: asset('index.js'),
 	},
 	output: {
-		filename: 'timekeeper.min.js',
+		filename: 'bannerInjection.min.js',
 		path: destDir, // www/js
 		// libraryTarget: 'system'
 	},
-	//devtool:'source-map',
+	devtool:'source-map',
 	plugins: [
     	new CleanWebpackPlugin(),
 	]
