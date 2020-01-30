@@ -8,8 +8,7 @@
 	  //"removeComments": true,
 	  "target": "es5",
 	  "watch":true,
-      "rootDir": "./ts"
-	  "allowJs": true
+      "rootDir": "./src",
   },
 	    "include": [
         "*/*.ts"

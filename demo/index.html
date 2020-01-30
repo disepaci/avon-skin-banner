@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>avon skin</title>
+		<link rel="stylesheet" href="./ratslider.css">
+	</head>
+	<body>
+		<style media="screen">
+			#banner{
+				height:500px;
+			}
+		</style>
+		<h1 align='center'>Avon skin banner</h1>
+		<hr>
+
+		<div id="banner"></div>
+		<script src="../dist/bannerInjection.min.js" charset="utf-8"></script>
+		<script type="text/javascript">
+
+const BANNER=`
+<div id="my-slider">
+			<div class="slide" >
+				<h1 align='center'>asdasda1</h1>
+			</div>
+			<div class="slide">
+				<h1 align='center'>2</h1>
+			</div>
+			<div class="slide" >
+				<h1 align='center'>3</h1>
+			</div>
+			<div class="slide"  >
+				<h1 align='center'>4</h1>
+			</div>
+</div>
+`
+			window.onload=()=>{
+				ratBanner('#banner',BANNER)
+			}
+		</script>
+	</body>
+</html>
